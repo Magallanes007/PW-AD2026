@@ -1,0 +1,21 @@
+Etiqueta	Para qué sirve	Sintaxis	Ejemplo
+<html>	Define el elemento raíz que envuelve todo el contenido del documento HTML.	<html>...</html>	<html><body>...</body></html>
+<head>	Contiene metadatos, enlaces a estilos, scripts y configuración no visible directamente.	<head>...</head>	<head><title>Inicio</title></head>
+<title>	Define el título del documento que aparece en la pestaña o barra del navegador.	<title>...</title>	<title>Mi Página Web</title>
+<body>	Alberga todo el contenido visible de la página (texto, imágenes, enlaces, etc.).	<body>...</body>	<body><h1>Hola Mundo</h1></body>
+<h1> - <h6>	Definen encabezados jerárquicos (<h1> es el principal, <h6> el nivel más bajo).	<h1>...</h1>	<h1>Título Principal</h1>
+<p>	Representa un párrafo de texto dentro del documento.	<p>...</p>	<p>Este es un párrafo de texto.</p>
+<a>	Crea hipervínculos para navegar hacia otras páginas, archivos o secciones.	<a href="URL">...</a>	<a href="[https://google.com](https://google.com)">Ir a Google</a>
+<img>	Inserta e integra una imagen dentro del documento web.	<img src="ruta" alt="descripción">	<img src="logo.png" alt="Logo de la empresa">
+<div>	Crea un contenedor genérico en bloque para agrupar y dar formato a elementos.	<div>...</div>	<div class="seccion"><p>Texto</p></div>
+<span>	Funciona como un contenedor en línea para aplicar estilos a un fragmento de texto específico.	<span>...</span>	<p>Texto en <span style="color:red">rojo</span>.</p>
+<ul>	Crea una lista desordenada cuyos elementos se muestran habitualmente con viñetas.	<ul>...</ul>	<ul><li>Manzana</li><li>Pera</li></ul>
+<ol>	Crea una lista ordenada cuyos elementos se muestran con números o letras.	<ol>...</ol>	<ol><li>Paso 1</li><li>Paso 2</li></ol>
+<li>	Define cada elemento dentro de una lista desordenada (<ul>) u ordenada (<ol>).	<li>...</li>	<li>Elemento de la lista</li>
+<table>	Delimita una estructura de tabla para mostrar datos organizados en filas y columnas.	<table>...</table>	<table><tr><td>Dato</td></tr></table>
+<tr>	Define una fila dentro de una tabla.	<tr>...</tr>	<tr><td>Columna 1</td></tr>
+<td>	Define una celda estándar de contenido dentro de una fila de tabla.	<td>...</td>	<td>Información de celda</td>
+<form>	Define una sección con controles para recopilar y enviar datos a un servidor.	<form action="URL">...</form>	<form action="/enviar"><input></form>
+<input>	Crea campos de entrada interactivos para el usuario (texto, contraseñas, casillas, etc.).	<input type="tipo">	<input type="email" placeholder="Correo">
+<button>	Genera un botón ejecutable para enviar formularios o activar acciones en la página.	<button type="tipo">...</button>	<button type="submit">Enviar</button>
+<br>	Inserta un salto de línea sencillo dentro del texto sin crear un nuevo párrafo.	<br>	Línea 1<br>Línea 2
