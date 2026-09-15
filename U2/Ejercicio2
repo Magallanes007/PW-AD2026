@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta  charset="utf-8">
+        <title>Ejercicio2</title>
+    </head>
+    <body>
+        <h1>Panteon ROCOCO</h1>
+        <br>
+        <p>Panteón Rococó funde ska, punk,
+             rock y ritmos latinoamericanos en un sonido vibrante
+              y festivo que combina baile con crítica social.
+               Sus letras, cargadas de resistencia y esperanza,
+                los han convertido en un referente de identidad cultural 
+                en México, manteniendo una conexión genuina con diversas generaciones.</p>
+            <br>
+            <h2>Indice</h2>
+            <a>Fotografia de grupo</a><br>
+            <a>Integrantes</a><br>
+            <a>Discografia</a><br>
+            <a>Enlaces</a><br>
+            <br>
+            <h2>Fotografia del grupo </h2>
+            <img id="Imagen"  width="600" src="https://24horasqroo.mx/wp-content/uploads/qroo/2025/02/%C2%A1Panteon-Rococo-llega-a-Cancun-para-celebrar-sus-30-anos-de-trayectoria-1200x675.jpg">
+            <br>
+            <h2>Integrantes</h2>
+            <table border="1">
+                <tr>
+                <th>Nombre</th>
+                <th>Intrumento</th>
+                </tr>
+                <tr>
+                    <td>Luiz Roman Ibarra</td>
+                    <td>Vocalista</td>
+                </tr>
+                <tr>
+                    <td>Diario Espinosa</td>
+                    <td>Bajo</td>
+                </tr>
+                <tr>
+                    <td>Hiram Paniagua</td>
+                    <td>Bateria</td>
+                </tr>
+            </table>
+            <br>
+            <h2 id="Discografia">Discograifa</h2>
+            <table border="1">
+                <tr>
+                    <th>Titulo</th>
+                    <th>Año</th>
+                </tr>
+                <tr>
+                    <td>Panteon Rococo</td>
+                    <td>1997</td>
+                </tr>
+                <tr>
+                    <td>A La Izquierda de la Tierra</td>
+                    <td>2002</td>
+                </tr>
+                <tr>
+                    <td>3 Veces</td>
+                    <td>2004</td>
+                </tr>
+                <tr>
+                    <td>Ejercito de Paz</td>
+                    <td>2010</td>
+                </tr>
+                <tr>
+                    <td>XX Años: En vivo</td>
+                    <td>2016</td>
+                </tr>
+                <tr>
+                    <td>Infiernos</td>
+                    <td>2019</td>
+                </tr>
+            </table>
+            <br>
+            <h2 id="Enlaces">Enlaces</h2>
+            <ol>
+                <ul><a href="https://panteonrococo.com/">Sitio Oficial</a></ul>
+                <ul><a href="#integrantes">Integrantes</a></ul>
+                <ul><a href="https://www.youtube.com/channel/UCmKU35Q-dkCoeyEpbDubJ8g">Youtube</a></ul>
+            </ol>
+    </body>
+</html>
